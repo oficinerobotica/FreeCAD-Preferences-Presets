@@ -4,8 +4,8 @@
   <FCParamGroup Name="Root">
     <FCParamGroup Name="BaseApp">
       <FCParamGroup Name="Preferences">
-        <FCParamGroup Name="View">
-          <FCUInt Name="BackgroundColor2" Value="2091546623"/>
+        <FCParamGroup Name="MainWindow">
+          <FCBool Name="ClearMenubar" Value="1"/>
         </FCParamGroup>
       </FCParamGroup>
     </FCParamGroup>
