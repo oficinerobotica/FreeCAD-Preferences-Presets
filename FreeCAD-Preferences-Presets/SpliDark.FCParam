@@ -750,6 +750,7 @@
       </FCParamGroup>
       <FCParamGroup Name="MainWindow">
         <FCParamGroup Name="DockWindows">
+          <FCBool Name="Std_PropertyView" Value="0"/>
           <FCParamGroup Name="OverlayRight">
             <FCText Name="Widgets"></FCText>
             <FCText Name="Sizes"></FCText>

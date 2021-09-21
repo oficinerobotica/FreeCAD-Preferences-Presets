@@ -3,9 +3,9 @@
 
   <FCParamGroup Name="Root">
     <FCParamGroup Name="BaseApp">
-      <FCParamGroup Name="Preferences">
-        <FCParamGroup Name="MainWindow">
-          <FCBool Name="ClearMenuBar" Value="1"/>
+      <FCParamGroup Name="MainWindow">
+        <FCParamGroup Name="DockWindows">
+          <FCBool Name="Std_PropertyView" Value="0"/>
         </FCParamGroup>
       </FCParamGroup>
     </FCParamGroup>
