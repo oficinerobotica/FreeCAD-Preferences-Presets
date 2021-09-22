@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FCParameters>
+
+  <FCParamGroup Name="Root">
+    <FCParamGroup Name="BaseApp">
+      <FCParamGroup Name="Preferences">
+        <FCParamGroup Name="General">
+          <FCText Name="PreferenceGeometry">924 134 1087 720</FCText>
+        </FCParamGroup>
+        <FCParamGroup Name="View">
+          <FCBool Name="UseBackgroundColorMid" Value="1"/>
+          <FCUInt Name="BackgroundColor2" Value="1852731135"/>
+          <FCUInt Name="BackgroundColor3" Value="3351764991"/>
+          <FCUInt Name="BackgroundColor4" Value="2593828095"/>
+        </FCParamGroup>
+      </FCParamGroup>
+    </FCParamGroup>
+  </FCParamGroup>
+
+</FCParameters>

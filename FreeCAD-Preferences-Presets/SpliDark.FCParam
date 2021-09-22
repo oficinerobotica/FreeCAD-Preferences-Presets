@@ -12,16 +12,12 @@
             </FCParamGroup>
             <FCParamGroup Name="STEP">
               <FCText Name="Scheme">AP214IS</FCText>
-              <FCText Name="Company"></FCText>
-              <FCText Name="Author"></FCText>
               <FCInt Name="Unit" Value="0"/>
             </FCParamGroup>
             <FCParamGroup Name="General">
               <FCInt Name="WriteSurfaceCurveMode" Value="1"/>
             </FCParamGroup>
             <FCParamGroup Name="IGES">
-              <FCText Name="Company"></FCText>
-              <FCText Name="Author"></FCText>
               <FCBool Name="BrepMode" Value="0"/>
               <FCBool Name="SkipBlankEntities" Value="1"/>
               <FCInt Name="Unit" Value="0"/>
@@ -55,10 +51,6 @@
             <FCParamGroup Name="General">
               <FCParamGroup Name="GridSize">
                 <FCText Name="Hist0">10,000 mm</FCText>
-                <FCText Name="Hist1"></FCText>
-                <FCText Name="Hist2"></FCText>
-                <FCText Name="Hist3"></FCText>
-                <FCText Name="Hist4"></FCText>
               </FCParamGroup>
               <FCBool Name="GridSnap" Value="0"/>
               <FCBool Name="ShowGrid" Value="0"/>
@@ -84,10 +76,6 @@
           </FCParamGroup>
           <FCParamGroup Name="Start">
             <FCText Name="AutoloadModule">StartWorkbench</FCText>
-            <FCText Name="Template"></FCText>
-            <FCText Name="BackgroundImage"></FCText>
-            <FCText Name="ShowCustomFolder"></FCText>
-            <FCText Name="FontFamily"></FCText>
             <FCBool Name="InWeb" Value="0"/>
             <FCBool Name="InBrowser" Value="1"/>
             <FCBool Name="ShowNotes" Value="0"/>
@@ -112,7 +100,6 @@
             <FCInt Name="ImportMode" Value="0"/>
           </FCParamGroup>
           <FCParamGroup Name="Arch">
-            <FCText Name="ifcSkip"></FCText>
             <FCText Name="ifcRootElement">IfcProduct</FCText>
             <FCBool Name="ifcDebug" Value="0"/>
             <FCBool Name="ifcCompress" Value="1"/>
@@ -157,7 +144,6 @@
             <FCFloat Name="ColladaScalingFactor" Value="1.000000000000"/>
           </FCParamGroup>
           <FCParamGroup Name="Draft">
-            <FCText Name="TeighaFileConverter"></FCText>
             <FCBool Name="dxfShowDialog" Value="0"/>
             <FCBool Name="dxfUseLegacyImporter" Value="0"/>
             <FCBool Name="dxfUseLegacyExporter" Value="0"/>
@@ -288,8 +274,6 @@
           <FCUInt Name="ItemBackground" Value="1852730900"/>
         </FCParamGroup>
         <FCParamGroup Name="View">
-          <FCText Name="ShadowGroundBumpMap"></FCText>
-          <FCText Name="ShadowGroundTexture"></FCText>
           <FCText Name="NewDocumentCameraOrientation">Trimetric</FCText>
           <FCBool Name="Simple" Value="0"/>
           <FCBool Name="UseVBO" Value="1"/>
@@ -680,8 +664,7 @@
         </FCParamGroup>
         <FCParamGroup Name="MainWindow">
           <FCText Name="StyleSheet">Dark-blue.qss</FCText>
-          <FCText Name="MenuStyleSheet"></FCText>
-          <FCText Name="MainWindowState">AAAA/wAAAAD9AAAAAwAAAAAAAAFJAAADhfwCAAAAAvsAAAAcAFMAZQBsAGUAYwB0AGkAbwBuACAAdgBpAGUAdwAAAAAA/////wAAAHQA////+wAAABIAVAByAGUAZQAgAHYAaQBlAHcBAAAAZgAAA4UAAABSAP///wAAAAEAAAF1AAADhfwCAAAAAvsAAAAaAFAAcgBvAHAAZQByAHQAeQAgAHYAaQBlAHcBAAAAZgAAAb4AAAB+AP////sAAAAUAEMAbwBtAGIAbwAgAFYAaQBlAHcBAAACLgAAAb0AAADqAP///wAAAAMAAAUAAAAA3PwBAAAAAvsAAAAWAFIAZQBwAG8AcgB0ACAAdgBpAGUAdwAAAAAAAAAFAAAAAGEA////+wAAABwAUAB5AHQAaABvAG4AIABjAG8AbgBzAG8AbABlAAAAAAD/////AAAAYQD///8AAASuAAADhQAAAAQAAAAEAAAACAAAAAj8AAAAAgAAAAIAAAAIAAAAFABEAHIAYQBmAHQAIAB0AHIAYQB5AAAAAAD/////AAAAAAAAAAAAAAAIAEYAaQBsAGUBAAAAAP////8AAAAAAAAAAAAAABIAVwBvAHIAawBiAGUAbgBjAGgBAAACHf////8AAAAAAAAAAAAAABIAUwB0AHIAdQBjAHQAdQByAGUBAAADGP////8AAAAAAAAAAAAAAAoATQBhAGMAcgBvAQAABBH/////AAAAAAAAAAAAAAAIAFYAaQBlAHcBAAAE0gAAA10AAAAAAAAAAAAAABQATgBhAHYAaQBnAGEAdABpAG8AbgAAAAYO/////wAAAAAAAAAAAAAADgBNAGUAYQBzAHUAcgBlAQAABzb/////AAAAAAAAAAAAAAACAAAAAwAAACQAUABhAHIAdAAgAEQAZQBzAGkAZwBuACAASABlAGwAcABlAHIBAAAAAP////8AAAAAAAAAAAAAACgAUABhAHIAdAAgAEQAZQBzAGkAZwBuACAATQBvAGQAZQBsAGkAbgBnAQAAAf//////AAAAAAAAAAAAAAAiAFAAYQByAHQAIABEAGUAcwBpAGcAbgAgAEUAeAB0AHIAYQEAAAReAAACKQAAAAAAAAAA</FCText>
+          <FCText Name="MainWindowState">AAAA/wAAAAD9AAAAAwAAAAAAAAE2AAACOvwCAAAAAvsAAAAcAFMAZQBsAGUAYwB0AGkAbwBuACAAdgBpAGUAdwAAAAAA/////wAAAHQA////+wAAABIAVAByAGUAZQAgAHYAaQBlAHcBAAAAMwAAAjoAAABSAP///wAAAAEAAAF1AAACOvwCAAAAAvsAAAAaAFAAcgBvAHAAZQByAHQAeQAgAHYAaQBlAHcAAAAAMwAAAScAAAB+AP////sAAAAUAEMAbwBtAGIAbwAgAFYAaQBlAHcBAAAAMwAAAjoAAADqAP///wAAAAMAAAUAAAAA3PwBAAAAAvsAAAAWAFIAZQBwAG8AcgB0ACAAdgBpAGUAdwAAAAAAAAAFAAAAAGEA////+wAAABwAUAB5AHQAaABvAG4AIABjAG8AbgBzAG8AbABlAAAAAAD/////AAAAYQD///8AAAJBAAACOgAAAAQAAAAEAAAACAAAAAj8AAAAAgAAAAIAAAAHAAAAFABEAHIAYQBmAHQAIAB0AHIAYQB5AAAAAAD/////AAAAAAAAAAAAAAAIAEYAaQBsAGUBAAAAAP////8AAAAAAAAAAAAAABIAVwBvAHIAawBiAGUAbgBjAGgBAAACHf////8AAAAAAAAAAAAAABIAUwB0AHIAdQBjAHQAdQByAGUBAAADGP////8AAAAAAAAAAAAAAAoATQBhAGMAcgBvAQAABBH/////AAAAAAAAAAAAAAAIAFYAaQBlAHcBAAAEbAAAA10AAAAAAAAAAAAAABQATgBhAHYAaQBnAGEAdABpAG8AbgEAAAS2/////wAAAAAAAAAAAAAAAgAAAAA=</FCText>
           <FCText Name="GlobalToolBarArea">Top</FCText>
           <FCText Name="DefaultToolBarArea">Top</FCText>
           <FCText Name="OverlayActiveStyleSheet">Dark-Outline.qss</FCText>
@@ -701,7 +684,6 @@
           <FCBool Name="ScriptToFile" Value="0"/>
         </FCParamGroup>
         <FCParamGroup Name="RecentMacros">
-          <FCText Name="ShortcutModifiers"></FCText>
           <FCInt Name="RecentMacros" Value="12"/>
           <FCInt Name="ShortcutCount" Value="3"/>
         </FCParamGroup>
@@ -720,8 +702,6 @@
         <FCParamGroup Name="Document">
           <FCText Name="SaveBackupDateFormat">%Y%m%d-%H%M%S</FCText>
           <FCText Name="prefLicenseUrl">http://en.wikipedia.org/wiki/All_rights_reserved</FCText>
-          <FCText Name="prefAuthor"></FCText>
-          <FCText Name="prefCompany"></FCText>
           <FCBool Name="SaveThumbnail" Value="1"/>
           <FCBool Name="AddThumbnailLogo" Value="0"/>
           <FCBool Name="CreateNewDoc" Value="0"/>
@@ -747,13 +727,15 @@
           <FCInt Name="prefLicenseType" Value="0"/>
           <FCInt Name="ThumbnailSampleSize" Value="0"/>
         </FCParamGroup>
+        <FCParamGroup Name="ParameterEditor">
+          <FCParamGroup Name="LastGroup">
+            <FCText Name="User parameter">BaseApp.Preferences.MainWindow</FCText>
+          </FCParamGroup>
+        </FCParamGroup>
       </FCParamGroup>
       <FCParamGroup Name="MainWindow">
         <FCParamGroup Name="DockWindows">
-          <FCBool Name="Std_PropertyView" Value="0"/>
           <FCParamGroup Name="OverlayRight">
-            <FCText Name="Widgets"></FCText>
-            <FCText Name="Sizes"></FCText>
             <FCInt Name="Width" Value="365"/>
             <FCInt Name="Height" Value="861"/>
           </FCParamGroup>
@@ -766,8 +748,8 @@
           <FCParamGroup Name="OverlayTop">
             <FCInt Name="Width" Value="1198"/>
           </FCParamGroup>
-          <FCBool Name="Std_TreeView" Value="1"/>
           <FCBool Name="Std_PropertyView" Value="0"/>
+          <FCBool Name="Std_TreeView" Value="1"/>
         </FCParamGroup>
         <FCParamGroup Name="Toolbars">
           <FCBool Name="Measure" Value="1"/>
@@ -778,6 +760,7 @@
         </FCParamGroup>
       </FCParamGroup>
     </FCParamGroup>
+    <FCText Name="Name">SpliDark</FCText>
   </FCParamGroup>
 
 </FCParameters>
