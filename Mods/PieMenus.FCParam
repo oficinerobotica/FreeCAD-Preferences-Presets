@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FCParameters>
+
+  <FCParamGroup Name="Root">
+    <FCParamGroup Name="BaseApp">
+      <FCParamGroup Name="Workbench">
+        <FCParamGroup Name="Global">
+          <FCParamGroup Name="Toolbar">
+            <FCParamGroup Name="Custom002">
+              <FCText Name="Name">Workbench</FCText>
+              <FCText Name="Std_Workbench_PartDesignWorkbench">FreeCAD</FCText>
+              <FCText Name="Std_Workbench_PartWorkbench">FreeCAD</FCText>
+              <FCText Name="Std_Workbench_SketcherWorkbench">FreeCAD</FCText>
+              <FCText Name="Std_Workbench_Assembly3Workbench">FreeCAD</FCText>
+              <FCText Name="Std_Workbench_FemWorkbench">FreeCAD</FCText>
+              <FCText Name="Std_Workbench_PathWorkbench">FreeCAD</FCText>
+              <FCText Name="Std_Workbench_SpreadsheetWorkbench">FreeCAD</FCText>
+              <FCText Name="Std_Workbench_StartWorkbench">FreeCAD</FCText>
+              <FCText Name="Std_Workbench_TechDrawWorkbench">FreeCAD</FCText>
+              <FCBool Name="Active" Value="0"/>
+            </FCParamGroup>
+            <FCParamGroup Name="Custom001">
+              <FCText Name="Name">General</FCText>
+              <FCText Name="Std_SelOnTop">FreeCAD</FCText>
+              <FCText Name="Std_PerspectiveCamera">FreeCAD</FCText>
+              <FCText Name="Std_OrthographicCamera">FreeCAD</FCText>
+              <FCText Name="Std_DrawStyleAsIs">FreeCAD</FCText>
+              <FCText Name="Std_DrawStyleShadow">FreeCAD</FCText>
+              <FCText Name="Std_Refresh">FreeCAD</FCText>
+              <FCText Name="View_Measure_Toggle_All">FreeCAD</FCText>
+              <FCText Name="Std_SelHierarchyAscend">FreeCAD</FCText>
+              <FCBool Name="Active" Value="0"/>
+            </FCParamGroup>
+          </FCParamGroup>
+        </FCParamGroup>
+      </FCParamGroup>
+      <FCParamGroup Name="Preferences">
+        <FCParamGroup Name="Shortcut">
+          <FCText Name="Std_ToolbarMenu_Custom001">Q</FCText>
+          <FCText Name="Std_ToolbarMenu_Custom002">W</FCText>
+        </FCParamGroup>
+        <FCParamGroup Name="PieMenu">
+          <FCInt Name="Std_ToolbarMenu_" Value="-1"/>
+        </FCParamGroup>
+        <FCParamGroup Name="ParameterEditor">
+          <FCParamGroup Name="LastGroup">
+            <FCText Name="User parameter">BaseApp.Preferences.General</FCText>
+          </FCParamGroup>
+        </FCParamGroup>
+      </FCParamGroup>
+    </FCParamGroup>
+    <FCText Name="Name">PieMenus</FCText>
+  </FCParamGroup>
+
+</FCParameters>
