@@ -88,8 +88,8 @@
           <FCFloat Name="PreSelectionDelay" Value="0.010000000000"/>
           <FCFloat Name="ShadowGroundTransparency" Value="1.000000000000"/>
           <FCUInt Name="BackgroundColor2" Value="1852731135"/>
-          <FCUInt Name="BackgroundColor3" Value="3351764991"/>
-          <FCUInt Name="BackgroundColor4" Value="3115962111"/>
+          <FCUInt Name="BackgroundColor3" Value="3722438143"/>
+          <FCUInt Name="BackgroundColor4" Value="2593823487"/>
         </FCParamGroup>
         <FCParamGroup Name="MainWindow">
           <FCText Name="StyleSheet">Dark-blue.qss</FCText>
@@ -106,7 +106,6 @@
         </FCParamGroup>
       </FCParamGroup>
     </FCParamGroup>
-    <FCText Name="Name">DS</FCText>
   </FCParamGroup>
 
 </FCParameters>
