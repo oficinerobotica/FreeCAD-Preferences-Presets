@@ -33,23 +33,61 @@
             </FCParamGroup>
           </FCParamGroup>
         </FCParamGroup>
+        <FCParamGroup Name="PartWorkbench">
+          <FCParamGroup Name="Toolbar">
+            <FCParamGroup Name="Custom001">
+              <FCText Name="Name">Part_Tools</FCText>
+              <FCText Name="Part_Box">Part</FCText>
+              <FCText Name="Part_Chamfer">Part</FCText>
+              <FCText Name="Part_Extrude">Part</FCText>
+              <FCText Name="Part_Fillet">Part</FCText>
+              <FCText Name="Part_Fuse">Part</FCText>
+              <FCText Name="Part_Common">Part</FCText>
+              <FCText Name="Part_Offset">Part</FCText>
+              <FCText Name="Part_Offset2D">Part</FCText>
+              <FCBool Name="Active" Value="0"/>
+            </FCParamGroup>
+          </FCParamGroup>
+        </FCParamGroup>
+        <FCParamGroup Name="PartDesignWorkbench">
+          <FCParamGroup Name="Toolbar">
+            <FCParamGroup Name="Custom001">
+              <FCText Name="Name">PartDesign_Tools</FCText>
+              <FCText Name="PartDesign_Body">PartDesign</FCText>
+              <FCText Name="PartDesign_NewSketch">PartDesign</FCText>
+              <FCText Name="PartDesign_Pad">PartDesign</FCText>
+              <FCText Name="PartDesign_Pocket">PartDesign</FCText>
+              <FCText Name="PartDesign_Chamfer">PartDesign</FCText>
+              <FCText Name="PartDesign_Fillet">PartDesign</FCText>
+              <FCText Name="PartDesign_Boolean">PartDesign</FCText>
+              <FCText Name="PartDesign_ShapeBinder">PartDesign</FCText>
+              <FCBool Name="Active" Value="0"/>
+            </FCParamGroup>
+          </FCParamGroup>
+        </FCParamGroup>
       </FCParamGroup>
       <FCParamGroup Name="Preferences">
         <FCParamGroup Name="Shortcut">
           <FCText Name="Std_ToolbarMenu_Custom001">Q</FCText>
           <FCText Name="Std_ToolbarMenu_Custom002">W</FCText>
+          <FCText Name="Std_WBMenu_PartWorkbench_Custom001">E,E</FCText>
+          <FCText Name="Std_WBMenu_PartDesignWorkbench_Custom001">E,E</FCText>
         </FCParamGroup>
         <FCParamGroup Name="PieMenu">
           <FCInt Name="Std_ToolbarMenu_" Value="-1"/>
+          <FCInt Name="Std_WBMenu_PartWorkbench" Value="-1"/>
+          <FCInt Name="Std_WBMenu_PartDesignWorkbench" Value="-1"/>
         </FCParamGroup>
         <FCParamGroup Name="ParameterEditor">
           <FCParamGroup Name="LastGroup">
-            <FCText Name="User parameter">BaseApp.Preferences.General</FCText>
+            <FCText Name="User parameter">BaseApp.Preferences.PieMenu</FCText>
           </FCParamGroup>
+        </FCParamGroup>
+        <FCParamGroup Name="Document">
+          <FCBool Name="SaveThumbnail" Value="1"/>
         </FCParamGroup>
       </FCParamGroup>
     </FCParamGroup>
-    <FCText Name="Name">PieMenus</FCText>
   </FCParamGroup>
 
 </FCParameters>
