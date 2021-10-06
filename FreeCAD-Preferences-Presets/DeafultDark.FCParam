@@ -8,7 +8,6 @@
       </FCParamGroup>
       <FCParamGroup Name="Preferences">
         <FCParamGroup Name="General">
-          <FCText Name="FileOpenSavePath">/home/flo/Dropbox/RealThunder/FreeCAD_Preferences_Presets/FreeCAD-Preferences-Presets</FCText>
           <FCText Name="AutoloadModule">StartWorkbench</FCText>
           <FCText Name="Language">English</FCText>
           <FCText Name="PreferenceGeometry">924 134 1087 720</FCText>
@@ -25,7 +24,6 @@
           <FCInt Name="FracInch" Value="8"/>
         </FCParamGroup>
         <FCParamGroup Name="Macro">
-          <FCText Name="MacroPath">/home/flo/.FreeCAD/Macro</FCText>
           <FCText Name="ScriptFile">FullScript.FCScript</FCText>
           <FCBool Name="LocalEnvironment" Value="1"/>
           <FCBool Name="RecordGui" Value="1"/>
