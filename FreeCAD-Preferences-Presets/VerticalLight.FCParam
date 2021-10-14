@@ -1,1 +1,9 @@
-<!--Default Light FreeCAD preferences pack-->
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FCParameters>
+
+  <FCParamGroup Name="Root">
+    <FCText Name="Name">VerticalLight</FCText>
+    <FCText Name="ToolTip">Not yet implemented.</FCText>
+  </FCParamGroup>
+
+</FCParameters>
