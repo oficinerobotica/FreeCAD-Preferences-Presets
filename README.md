@@ -9,12 +9,19 @@ Both the preferences presets and the Linkstage3 release are considered unstable 
 You can already find builtin presets as of FreeCAD Linkstage3 2021.09.16 Release. They can be accessed in menu 'Tools -> Preset configurations.
 
 Install:
--Backup your FreeCAD settings folder. 
+
+-Backup your FreeCAD settings folder.
+
 -For this to work you need Realthunder’s LinkStage3 from here: https://github.com/realthunder/FreeCAD_assembly3/releases
+
 -Clone or download this github repo: https://github.com/oficinerobotica/FreeCAD-Preferences-Presets
--From the downloaded repo copy the [b][u]Gui[/u][/b]  and [b][u]settings[/u][/b] folders present in [b][u]src[/u][/b] to your  FreeCAD settings folder then restart FreeCAD
+
+-From the downloaded repo copy the "Gui"  and "settings" folders present in "src" to your  FreeCAD settings folder then restart FreeCAD
+
  OSX = /Users/[YOUR_USER_NAME]/Library/Preferences/FreeCAD/
+
  WINDOWS = C:\Users\[YOUR_USER_NAME]\AppData\Roaming\FreeCAD
+
  LINUX = /home/[YOUR_USER_NAME]/.FreeCAD/
 
 Alternate install:
