@@ -5,7 +5,8 @@
 ## Video Tutorial
 [LinkStage3] SplitDark and Pie menu's installing using the Preferences presets functionality.
 
-[!["SplitDark and Pie menu's installing using the Preferences presets functionality. |OficineRobotica|"](http://i1.ytimg.com/vi/i-Dh6zC7DlI/hqdefault.jpg)](https://www.youtube.com/watch?v=i-Dh6zC7DlI "SplitDark and Pie menu's installing using the Preferences presets functionality. |OficineRobotica|")
+[![SplitDark and Pie menu's installing using the Preferences presets functionality. |OficineRobotica|](./Resources/Thumbnail_1.jpeg)](https://www.youtube.com/watch?v=i-Dh6zC7DlI "SplitDark and Pie menu's installing using the Preferences presets functionality. |OficineRobotica|")
+
 
 At the moment, these preferences presets are intended to be used with Realthunder’s FreeCAD LinkStage3 development branch that can be downloaded from here: https://github.com/realthunder/FreeCAD_assembly3/releases
 
