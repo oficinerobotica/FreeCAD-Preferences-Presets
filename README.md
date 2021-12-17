@@ -2,6 +2,15 @@
 [![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/oficinerobotica)
 [![Liberapay](http://img.shields.io/liberapay/patrons/realthunder.svg?logo=liberapay)](https://liberapay.com/oficinerobotica/donate)
 
+<iframe
+    width="640"
+    height="480"
+    src="https://www.youtube.com/watch?v=i-Dh6zC7DlI&t=8s"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+</iframe>
+
 At the moment, these preferences presets are intended to be used with Realthunder’s FreeCAD LinkStage3 development branch that can be downloaded from here: https://github.com/realthunder/FreeCAD_assembly3/releases
 
 Both the preferences presets and the Linkstage3 release are considered unstable and intended for testing purposes so please do a backup of your FreeCAD configuration and don’t use it for important work.
