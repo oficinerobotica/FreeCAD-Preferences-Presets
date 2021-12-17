@@ -13,7 +13,7 @@ Both the preferences presets and the Linkstage3 release are considered unstable 
 
 You can already find builtin presets as of FreeCAD Linkstage3 2021.09.16 Release. They can be accessed in menu 'Tools -> Preset configurations.
 
-Install:
+## Install:
 
 -Backup your FreeCAD settings folder.
 
@@ -29,7 +29,7 @@ Install:
 
  LINUX = /home/[YOUR_USER_NAME]/.FreeCAD/
 
-Alternate install:
+## Alternate install:
 Download or clone [oficinerobotica/FreeCAD-Preferences-Presets](https://github.com/oficinerobotica/FreeCAD-Preferences-Presets) to a convenient location.
 
 The main presets can be found in the FreeCAD-Preferences-Presets folder.
@@ -43,4 +43,5 @@ To apply the the preferences pack select it in Tools → Preset Configurations
 
 ![SelectPreset](./Resources/SelectPresets.jpeg)
 
+## Revert changes
 To revert to your previous configuration CTRL+Click the preset in Tools → Preset Configurations
