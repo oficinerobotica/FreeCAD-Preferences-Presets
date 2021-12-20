@@ -34,19 +34,21 @@ You can already find builtin presets as of FreeCAD Linkstage3 2021.09.16 Release
 ## Alternate install:
 Download or clone [oficinerobotica/FreeCAD-Preferences-Presets](https://github.com/oficinerobotica/FreeCAD-Preferences-Presets) to a convenient location.
 
-The main presets can be found in the FreeCAD-Preferences-Presets folder.
-The Mods folder is reserved for experimentation and prsets there are intended to be merged with a previous configuration. Use those only if you know what are you dowing.
+Within the repository you'll find the: 
+1. `FreeCAD-Preferences-Presets` folder. These are the main presets
+2. `Mods` folder which is reserved for experimentation. The presets in this directory are intended to be merged with a previous configuration. Use these only if you know what are you doing.
 
-In FreeCAD, head over to Tools → EditParameters menu and click the Add button selecting the .FCParam file of your choice from the previously downloaded preferences pack.
+In FreeCAD, head over to `Tools → EditParameters` menu and click the `Add` button selecting the `.FCParam` file of your choice from the `FreeCAD-Preferences-Presets` folder.
 
 ![EditParameters](./Resources/EditParameters.jpeg)
 
-To apply the the preferences pack select it in Tools → Preset Configurations
+To apply the the preferences pack select it in `Tools → Preset Configurations`
 
 ![SelectPreset](./Resources/SelectPresets.jpeg)
 
 ## Revert changes
-To revert to your previous configuration CTRL+Click the preset in Tools → Preset Configurations
+
+To revert to your previous configuration `CTRL`+Click the preset in Tools → `Preset Configurations`
 
 ## Feedback
 
