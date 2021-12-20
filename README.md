@@ -47,3 +47,15 @@ To apply the the preferences pack select it in Tools → Preset Configurations
 
 ## Revert changes
 To revert to your previous configuration CTRL+Click the preset in Tools → Preset Configurations
+
+## Feedback
+
+Open a ticket in this repo or discuss in the FreeCAD forum.
+
+## Donate
+
+If you are benefitting from these efforts and want to show your appreciation/support, check out my [Patreon](https://www.patreon.com/oficinerobotica) or [Liberapay](https://liberapay.com/oficinerobotica/donate). Also consider donating to [@Realthunder's](https://github.com/realthunder) efforts on his [Patreon](https://www.patreon.com/thundereal).
+
+## Author
+
+Presets package authored by [@oficinerobotica](https://github.com/oficinerobotica).
