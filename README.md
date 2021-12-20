@@ -15,19 +15,21 @@ You can already find builtin presets as of FreeCAD Linkstage3 2021.09.16 Release
 
 ## Install:
 
--Backup your FreeCAD settings folder.
+* Backup your FreeCAD settings folder.
 
--For this to work you need Realthunder’s LinkStage3 from here: https://github.com/realthunder/FreeCAD_assembly3/releases
+* As a prerequisite, you must be using Realthunder’s experimental [LinkStage3](https://github.com/realthunder/FreeCAD_assembly3/releases) branch
 
--Clone or download this github repo: https://github.com/oficinerobotica/FreeCAD-Preferences-Presets
+* Clone or download this github repo: https://github.com/oficinerobotica/FreeCAD-Preferences-Presets
 
--From the downloaded repo copy the "Gui"  and "settings" folders present in "src" to your  FreeCAD settings folder then restart FreeCAD
+* Within the downloaded repo locate the `src` directory. It contains 2 important folders named `Gui` and `settings`
 
- OSX = /Users/[YOUR_USER_NAME]/Library/Preferences/FreeCAD/
+* Copy the `src/Gui` and `src/settings` folders to your local default FreeCAD settings folder. **Note:** reference the list below for your OS.
 
- WINDOWS = C:\Users\[YOUR_USER_NAME]\AppData\Roaming\FreeCAD
+    >**macOS:** `/Users/[YOUR_USER_NAME]/Library/Preferences/FreeCAD/`
+    >**Windows:** `C:\Users\[YOUR_USER_NAME]\AppData\Roaming\FreeCAD`
+    >**Linux:** `/home/[YOUR_USER_NAME]/.FreeCAD/`
 
- LINUX = /home/[YOUR_USER_NAME]/.FreeCAD/
+* Restart FreeCAD
 
 ## Alternate install:
 Download or clone [oficinerobotica/FreeCAD-Preferences-Presets](https://github.com/oficinerobotica/FreeCAD-Preferences-Presets) to a convenient location.
