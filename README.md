@@ -1,6 +1,5 @@
 # FreeCAD-Preferences-Presets
-[![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/oficinerobotica)
-[![Liberapay](http://img.shields.io/liberapay/patrons/realthunder.svg?logo=liberapay)](https://liberapay.com/oficinerobotica/donate)
+[![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/oficinerobotica) [![Liberapay](http://img.shields.io/liberapay/patrons/realthunder.svg?logo=liberapay)](https://liberapay.com/oficinerobotica/donate)
 
 ## Video Tutorial
 [LinkStage3] SplitDark and Pie menu's installing using the Preferences presets functionality.
