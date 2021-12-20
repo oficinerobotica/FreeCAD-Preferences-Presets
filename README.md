@@ -25,8 +25,8 @@ You can already find builtin presets as of FreeCAD Linkstage3 2021.09.16 Release
 
 * Copy the `src/Gui` and `src/settings` folders to your local default FreeCAD settings folder. **Note:** reference the list below for your OS.
 
-    >**macOS:** `/Users/[YOUR_USER_NAME]/Library/Preferences/FreeCAD/`
-    >**Windows:** `C:\Users\[YOUR_USER_NAME]\AppData\Roaming\FreeCAD`
+    >**macOS:** `/Users/[YOUR_USER_NAME]/Library/Preferences/FreeCAD/`  
+    >**Windows:** `C:\Users\[YOUR_USER_NAME]\AppData\Roaming\FreeCAD`  
     >**Linux:** `/home/[YOUR_USER_NAME]/.FreeCAD/`
 
 * Restart FreeCAD
