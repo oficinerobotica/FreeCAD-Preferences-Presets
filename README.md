@@ -1,6 +1,5 @@
 # FreeCAD-Preferences-Presets
-[![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/oficinerobotica)
-[![Liberapay](http://img.shields.io/liberapay/patrons/realthunder.svg?logo=liberapay)](https://liberapay.com/oficinerobotica/donate)
+[![Patreon](https://img.shields.io/badge/patreon-donate-blue.svg)](https://www.patreon.com/oficinerobotica) [![Liberapay](http://img.shields.io/liberapay/patrons/realthunder.svg?logo=liberapay)](https://liberapay.com/oficinerobotica/donate)
 
 ## Video Tutorial
 [LinkStage3] SplitDark and Pie menu's installing using the Preferences presets functionality.
@@ -16,33 +15,49 @@ You can already find builtin presets as of FreeCAD Linkstage3 2021.09.16 Release
 
 ## Install:
 
--Backup your FreeCAD settings folder.
+* Backup your FreeCAD settings folder.
 
--For this to work you need Realthunder’s LinkStage3 from here: https://github.com/realthunder/FreeCAD_assembly3/releases
+* As a prerequisite, you must be using Realthunder’s experimental [LinkStage3](https://github.com/realthunder/FreeCAD_assembly3/releases) branch
 
--Clone or download this github repo: https://github.com/oficinerobotica/FreeCAD-Preferences-Presets
+* Clone or download this github repo: https://github.com/oficinerobotica/FreeCAD-Preferences-Presets
 
--From the downloaded repo copy the "Gui"  and "settings" folders present in "src" to your  FreeCAD settings folder then restart FreeCAD
+* Within the downloaded repo locate the `src` directory. It contains 2 important folders named `Gui` and `settings`
 
- OSX = /Users/[YOUR_USER_NAME]/Library/Preferences/FreeCAD/
+* Copy the `src/Gui` and `src/settings` folders to your local default FreeCAD settings folder. **Note:** reference the list below for your OS.
 
- WINDOWS = C:\Users\[YOUR_USER_NAME]\AppData\Roaming\FreeCAD
+    >**macOS:** `/Users/[YOUR_USER_NAME]/Library/Preferences/FreeCAD/`  
+    >**Windows:** `C:\Users\[YOUR_USER_NAME]\AppData\Roaming\FreeCAD`  
+    >**Linux:** `/home/[YOUR_USER_NAME]/.FreeCAD/`
 
- LINUX = /home/[YOUR_USER_NAME]/.FreeCAD/
+* Restart FreeCAD
 
 ## Alternate install:
 Download or clone [oficinerobotica/FreeCAD-Preferences-Presets](https://github.com/oficinerobotica/FreeCAD-Preferences-Presets) to a convenient location.
 
-The main presets can be found in the FreeCAD-Preferences-Presets folder.
-The Mods folder is reserved for experimentation and prsets there are intended to be merged with a previous configuration. Use those only if you know what are you dowing.
+Within the repository you'll find the: 
+1. `FreeCAD-Preferences-Presets` folder. These are the main presets
+2. `Mods` folder which is reserved for experimentation. The presets in this directory are intended to be merged with a previous configuration. Use these only if you know what are you doing.
 
-In FreeCAD, head over to Tools → EditParameters menu and click the Add button selecting the .FCParam file of your choice from the previously downloaded preferences pack.
+In FreeCAD, head over to `Tools → EditParameters` menu and click the `Add` button selecting the `.FCParam` file of your choice from the `FreeCAD-Preferences-Presets` folder.
 
 ![EditParameters](./Resources/EditParameters.jpeg)
 
-To apply the the preferences pack select it in Tools → Preset Configurations
+To apply the the preferences pack select it in `Tools → Preset Configurations`
 
 ![SelectPreset](./Resources/SelectPresets.jpeg)
 
 ## Revert changes
-To revert to your previous configuration CTRL+Click the preset in Tools → Preset Configurations
+
+To revert to your previous configuration `CTRL`+Click the preset in Tools → `Preset Configurations`
+
+## Feedback
+
+Open a ticket in this repo or discuss in the FreeCAD forum.
+
+## Donate
+
+If you are benefitting from these efforts and want to show your appreciation/support, check out my [Patreon](https://www.patreon.com/oficinerobotica) or [Liberapay](https://liberapay.com/oficinerobotica/donate). Also consider donating to [@Realthunder's](https://github.com/realthunder) efforts on his [Patreon](https://www.patreon.com/thundereal).
+
+## Author
+
+Presets package authored by [@oficinerobotica](https://github.com/oficinerobotica).
